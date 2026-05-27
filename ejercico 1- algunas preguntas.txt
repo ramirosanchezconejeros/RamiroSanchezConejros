@@ -1,0 +1,11 @@
+1) Es importante validar los datos que ingresa un usuario, para que el programa pueda correr y
+    funcionar bien. También es importante validar los datos para que el código no se rompa.
+2) La diferencia entre el strip y el split es que el strip se utiliza para eliminar algún
+    carácter que se indique en específico. Este carácter se eliminará solo si se encuentra
+    al principio y al final de una cadena, mientras que el split separa la cadena de caracteres
+    en una lista. Para separar la cadena, se debe indicar el carácter que la dividirá, como los
+    puntos o comas.
+3)El count nos sirve para contar cuántas veces aparece un carácter específico en un texto o cadena
+    de caracteres.
+4)Generalmente, lo que ocurre cuando hay espacios de más es que se producen errores, porque
+    para nosotros son invisibles, pero para la computadora son un carácter más.

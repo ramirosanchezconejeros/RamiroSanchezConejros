@@ -1,0 +1,22 @@
+linea = " mara ; programacion ; 8 "
+
+partes = linea.split(";")
+nombre = partes[0].strip().capitalize()
+materia = partes[1].strip().capitalize()
+nota_texto = partes[2].strip()
+
+if nota_texto.isnumeric():
+    nota = int(nota_texto)
+    print(f"{nombre} cursa {materia} y obtuvo {nota}")
+else:
+    print("La nota no es valida")
+
+1) en partes que da guardado una lista del texto linea, cada termino de la 
+    lista sera el texto partido por el punto y coma:
+    partes = [' mara',' programacion ',' 8 ']
+2) se utiliza primero el stip, porque sino el capitalize() intentara poner en 
+    mayusculas el espacio que hay en el primer valor de la lista partes.
+3) se esta validan el dato "8" en la variable naota_texto, la validacion 
+    confirma si el valor de nota_texto es un valor numerico del 0 al 9.
+4) lo que sucede si en lugar de "8" se coloca "ocho", me entrgara un print
+    con el siguien texto "La nota no es valida"
